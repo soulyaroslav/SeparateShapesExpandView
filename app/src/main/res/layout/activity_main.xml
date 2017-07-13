@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <soulyaroslav.library.SeparateShapesView
+        android:id="@+id/view"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        app:ssv_all_text_caps="true"
+        app:ssv_done_drawable="@drawable/done"
+        app:ssv_left_shape_drawable="@drawable/left_rounded_corner_drawable"
+        app:ssv_right_shape_drawable="@drawable/right_rounded_corner_drawable"
+        app:ssv_left_shape_text="Left text"
+        app:ssv_right_shape_text="Right text"
+        app:ssv_text_color="@android:color/white"
+        app:ssv_text_size="14sp"/>
+</RelativeLayout>
